@@ -108,7 +108,7 @@ html, body {
     transform: translate(-100%, 0);
 }
 
-.leg {
+.Leg {
     width: 3%;
     height: 21%;
     background: var(--orange1);
@@ -120,11 +120,11 @@ html, body {
         repeating-linear-gradient(transparent 0 10%, rgba(0, 0, 0, 0.1) 0 11%);
 }
 
-.leg+.leg {
+.Leg+.Leg {
     transform: translate(-50%, 0) translate(4vmin, 0);
 }
 
-.leg::before, .leg::after {
+.Leg::before, .Leg::after {
     content: "";
     display: block;
     position: absolute;
@@ -138,11 +138,11 @@ html, body {
     transform: translate(-50%, 0) rotate(30deg);
 }
 
-.leg::after {
+.Leg::after {
     transform: translate(-50%, 0) rotate(-30deg);
 }
 
-.hat-bottom {
+.HatBottom {
     width: 35%;
     height: 8%;
     border-radius: 50%;
@@ -152,7 +152,7 @@ html, body {
     transform: translate(-50%, 0);
 }
 
-.hat-top {
+.HatTop {
     width: 16%;
     height: 20%;
     background: black;
@@ -163,7 +163,7 @@ html, body {
     transform: translate(-50%, 0);
 }
 
-.hat-top::before {
+.HatTop::before {
     content: "";
     display: block;
     position: absolute;
@@ -176,7 +176,7 @@ html, body {
     transform: translate(-50%, 0);
 }
 
-.tail {
+.Tail {
     width: 10%;
     height: 40%;
     background: var(--orange1);
@@ -187,62 +187,62 @@ html, body {
     transform: translate(-50%, 0);
 }
 
-.tail:nth-child(odd) {
+.Tail:nth-child(odd) {
     background: var(--orange1);
 }
 
-.tail:nth-child(even) {
+.Tail:nth-child(even) {
     background: var(--orange2);
 }
 
-.tail:nth-child(1) {
+.Tail:nth-child(1) {
     transform: translate(-50%, 0) rotate(0);
 }
 
-.tail:nth-child(2) {
+.Tail:nth-child(2) {
     transform: translate(-50%, 0) rotate(17deg);
 }
 
-.tail:nth-child(3) {
+.Tail:nth-child(3) {
     transform: translate(-50%, 0) rotate(34deg);
 }
 
-.tail:nth-child(4) {
+.Tail:nth-child(4) {
     transform: translate(-50%, 0) rotate(51deg);
 }
 
-.tail:nth-child(5) {
+.Tail:nth-child(5) {
     transform: translate(-50%, 0) rotate(68deg);
 }
 
-.tail:nth-child(6) {
+.Tail:nth-child(6) {
     transform: translate(-50%, 0) rotate(85deg);
 }
 
-.tail:nth-child(7) {
+.Tail:nth-child(7) {
     transform: translate(-50%, 0) rotate(102deg);
 }
 
-.tail:nth-child(8) {
+.Tail:nth-child(8) {
     transform: translate(-50%, 0) rotate(-17deg);
 }
 
-.tail:nth-child(9) {
+.Tail:nth-child(9) {
     transform: translate(-50%, 0) rotate(-34deg);
 }
 
-.tail:nth-child(10) {
+.Tail:nth-child(10) {
     transform: translate(-50%, 0) rotate(-51deg);
 }
 
-.tail:nth-child(11) {
+.Tail:nth-child(11) {
     transform: translate(-50%, 0) rotate(-68deg);
 }
 
-.tail:nth-child(12) {
+.Tail:nth-child(12) {
     transform: translate(-50%, 0) rotate(-85deg);
 }
 
-.tail:nth-child(13) {
+.Tail:nth-child(13) {
     transform: translate(-50%, 0) rotate(-102deg);
 }
